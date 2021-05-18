@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 flower2 = "../mysamples/flower2.jpg"
 img = cv.imread(flower2)
-px = img[100,100]
+px = img[100, 100]
 print( px )
 
 # accessing only blue pixel
